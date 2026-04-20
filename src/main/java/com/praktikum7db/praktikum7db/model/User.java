@@ -7,12 +7,14 @@ import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Data
 @Table(name = "20230140082_users")
 @Builder
 @AllArgsConstructor
+@NoArgsConstructor
 public class User {
     @Id
     private String id;
